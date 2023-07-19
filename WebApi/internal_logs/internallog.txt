@@ -307,3 +307,72 @@
 2023-07-13 12:18:07.1208 Info Message Template Auto Format enabled
 2023-07-13 12:18:07.2500 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-07-13 12:18:07.3063 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-13 12:25:15.9617 Info Message Template Auto Format enabled
+2023-07-13 12:25:16.1720 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-13 12:25:16.2281 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-13 16:04:34.8737 Info Message Template Auto Format enabled
+2023-07-13 16:04:35.0205 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-13 16:04:35.0608 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-13 16:12:03.4540 Info Message Template Auto Format enabled
+2023-07-13 16:12:03.7146 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-13 16:12:03.7884 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-13 16:23:41.9307 Info Message Template Auto Format enabled
+2023-07-13 16:23:42.0704 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-13 16:23:42.1081 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-13 16:29:15.7694 Info Message Template Auto Format enabled
+2023-07-13 16:29:15.9475 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-13 16:29:15.9941 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-13 16:31:33.7907 Info Message Template Auto Format enabled
+2023-07-13 16:31:33.9741 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-13 16:31:34.0254 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 09:14:34.8877 Info Message Template Auto Format enabled
+2023-07-17 09:14:35.3324 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 09:14:35.3872 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 09:18:26.6569 Info Message Template Auto Format enabled
+2023-07-17 09:18:27.1472 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 09:18:27.2875 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 09:25:50.8570 Info Message Template Auto Format enabled
+2023-07-17 09:25:51.0995 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 09:25:51.1642 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 09:35:30.6020 Info Message Template Auto Format enabled
+2023-07-17 09:35:30.8516 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 09:35:30.9326 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 17:03:47.2568 Info Message Template Auto Format enabled
+2023-07-17 17:03:47.4076 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 17:03:47.4329 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 17:37:53.5120 Info Message Template Auto Format enabled
+2023-07-17 17:37:53.7895 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 17:37:53.8522 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 17:39:11.2306 Info Message Template Auto Format enabled
+2023-07-17 17:39:11.3749 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 17:39:11.4153 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-17 17:43:09.6649 Info Message Template Auto Format enabled
+2023-07-17 17:43:09.8855 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-17 17:43:09.9568 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 09:15:34.4594 Info Message Template Auto Format enabled
+2023-07-19 09:15:34.5981 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 09:15:34.6252 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 09:21:49.6777 Info Message Template Auto Format enabled
+2023-07-19 09:21:50.0126 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 09:21:50.0943 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 10:22:34.6190 Info Message Template Auto Format enabled
+2023-07-19 10:22:34.7684 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 10:22:34.7953 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 12:03:06.5257 Info Message Template Auto Format enabled
+2023-07-19 12:03:06.7475 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 12:03:06.7861 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 14:59:37.3068 Info Message Template Auto Format enabled
+2023-07-19 14:59:37.4362 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 14:59:37.4632 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 16:59:09.3076 Info Message Template Auto Format enabled
+2023-07-19 16:59:09.6566 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 16:59:09.7512 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 17:06:01.2493 Info Message Template Auto Format enabled
+2023-07-19 17:06:01.5369 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 17:06:01.6061 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 17:09:44.6587 Info Message Template Auto Format enabled
+2023-07-19 17:09:44.8410 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 17:09:44.8925 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
+2023-07-19 17:14:57.7055 Info Message Template Auto Format enabled
+2023-07-19 17:14:57.9544 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-19 17:14:58.0092 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\hakan\source\repos\bsStoreApp\WebApi\nlog.config
