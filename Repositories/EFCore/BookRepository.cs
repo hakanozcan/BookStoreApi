@@ -43,5 +43,9 @@ namespace Repositories.EFCore
         public void UpdateOneBook(Book book) => Update(book);
 
         public void DeleteOneBook(Book book) => Delete(book);
+        public async Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackChanges)
+        {
+            return await _context.Books.Include(b => b.Category).OrderBy(b => b.Id).ToListAsync();
+        }
     }
 }

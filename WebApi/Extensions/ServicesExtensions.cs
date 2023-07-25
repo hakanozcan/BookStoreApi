@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Presentation.ActionFilters;
 using Presentation.Controllers;
 using Repositories.Contracts;
@@ -180,6 +181,70 @@ namespace WebApi.Extensions
                 }
                 
                 );
+        }
+
+        public static void ConfigureSwagger(this IServiceCollection services)
+        {
+            services.AddSwaggerGen(s =>
+                {
+                    s.SwaggerDoc("v1", new OpenApiInfo
+                    {
+                        Title = "BookStore API",
+                        Version = "v1",
+                        Description = "ASP .NET Core Web API",
+                        TermsOfService = new Uri("https://github.com/hakanozcan/"),
+                        Contact = new OpenApiContact
+                        {
+                            Name = "Hakan Özcan",
+                            Email = "hakanozcan20@hotmail.com.tr",
+                            Url = new Uri("https://hakanozcan.me/")
+                        }
+                    });
+                    s.SwaggerDoc("v2", new OpenApiInfo
+                    {
+                        Title = "BookStore API",
+                        Version = "v2",
+                    });
+
+                    s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                    {
+                        In = ParameterLocation.Header,
+                        Description = "Place to add JWT with Bearer",
+                        Name = "Authorization",
+                        Type = SecuritySchemeType.ApiKey,
+                        Scheme = "Bearer"
+                    });
+
+                    s.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                    {
+                        {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme, 
+                                Id="Bearer"
+                            },
+                            Name = "Bearer"
+                        },
+                        new List<string>()
+                        }
+                    });
+                }
+                );
+        }
+
+        public static void RegisterRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+        }
+
+        public static void RegisterServices(this IServiceCollection services)
+        {
+            services.AddScoped<IBookService, BookManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IAuthenticationService, AuthenticationManager>();
         }
     }
 }

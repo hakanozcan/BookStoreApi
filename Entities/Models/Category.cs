@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    public class Book
+    public class Category
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public decimal Price { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public String? CategoryName { get; set; }
+
+        //public ICollection<Book> Books { get; set; }
     }
 }

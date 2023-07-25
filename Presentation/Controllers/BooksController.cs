@@ -123,5 +123,12 @@ namespace Presentation.Controllers
             Response.Headers.Add("Allow","GET,OPTIONS,HEAD,POST,PUT,PATCH,DELETE");
             return Ok();
         }
+
+        [Authorize]
+        [HttpGet("details")]
+        public async Task<IActionResult> GetAllBooksWithDetailsAsync()
+        {
+            return Ok(await _manager.BookService.GetAllBooksWithDetailsAsync(false));
+        }
     }
 }
